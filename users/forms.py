@@ -5,3 +5,4 @@ class EmailedUserCreationForm(UserCreationForm):
         fields = UserCreationForm.Meta.fields + ('email','first_name', 'last_name')
 
 #This is a forms file
+#This is a new-feature comment
